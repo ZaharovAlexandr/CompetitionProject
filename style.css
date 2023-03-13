@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.pages {
+    min-width: 1280px;
+}
+
+.header {
+    padding: 41px 0 71px;
+    background-color: rgba(27, 41, 68, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 113px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    min-width: 944px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    column-gap: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon__logo {
+    margin: 0;
+    padding: 0;
+}
+
+.freelancer {
+    display: flex;
+    flex-direction: row;
+    min-width: 944px;
+    justify-content: space-between;
+}
+
+.freelancer__text {
+    max-width: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.freelancer__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFBB01;
+    padding-bottom: 13px;
+}
+
+.freelancer__subtitle {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+
+}
+
+.freelancer__button {
+    background: #FFBB01;
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 62px;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #1B2944;
+    margin: 0;
+    max-width: 300px;
+}
+
+.freelancer__paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 20px 0 38px;
+}
+
+.freelancer__image {
+    border-radius: 50%;
+    border: 11px solid white;
+}
