@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +9,116 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body class="pages">
     <header class="header">
         <menu class="menu">
             <ul class="logo"><img src="./images/Discord-logo.png" alt="Discord"></ul>
             <div class="social-icon">
-                <ul class="social-icon__logo"><img src="./images/github-logo.png" alt="Github"></ul>
-                <ul class="social-icon__logo"><img src="./images/twitter-logo.png" alt="Twitter"></ul>
-                <ul class="social-icon__logo"><img src="./images/instagram-logo.png" alt="Discord"></ul>
-                <ul class="social-icon__logo"><img src="./images/facebook-logo.png" alt="Discord"></ul>
+                <ul class="social-icon__logo"><a href="https://github.com/ZaharovAlexandr/CompetitionProject"><img
+                            src="./images/github-logo.png" alt="Github"></a></ul>
+                <ul class="social-icon__logo"><a href="https://twitter.com"><img src="./images/twitter-logo.png"
+                            alt="Twitter"></a></ul>
+                <ul class="social-icon__logo"><a href="https://instagram.com"><img src="./images/instagram-logo.png"
+                            alt="instagram"></a></ul>
+                <ul class="social-icon__logo"><a href="https://facebook.com"><img src="./images/facebook-logo.png"
+                            alt="facebook"></a></ul>
             </div>
         </menu>
         <div class="freelancer">
             <div class="freelancer__text">
                 <h1 class="freelancer__title">Фрилансер</h1>
                 <h2 class="freelancer__subtitle">Петр Федоров</h2>
-                <p class="freelancer__paragraph">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-                <button class="freelancer__button">Бесплатная консультация </button>
+                <p class="freelancer__paragraph">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
+                    дизайн и верстку небольшого сайта или интернет-магазина</p>
+                <a href="#"><button class="freelancer__button">Бесплатная консультация</button></a>
             </div>
             <img class="freelancer__image" src="./images/avatar.jpg" alt="avatar">
         </div>
     </header>
-    <section class="work"></section>
+    <section class="working">
+        <div class="work">
+            <h2 class="section-title">Со мной удобно работать</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/cards/offer-card.svg" alt="card" class="card__image">
+                    <h3 class="card__title">По договору</h3>
+                    <p class="card__paragraph">Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+                        Работаю как ИП без НДС.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/cards/deadline-card.svg" alt="card" class="card__image">
+                    <h3 class="card__title">Точно в срок</h3>
+                    <p class="card__paragraph">В договоре прописана моя ответственность за срок проекта. Если просрочу —
+                        плачу неустойку.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/cards/agreement-card.svg" alt="card" class="card__image">
+                    <h3 class="card__title">Ценник под вас</h3>
+                    <p class="card__paragraph">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+                        складывается цена.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/cards/steps-card.svg" alt="card" class="card__image">
+                    <h3 class="card__title">Премежуточные итоги</h3>
+                    <p class="card__paragraph">Показываю работу поэтапно, а не в последий момент перед крайним сроком.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/cards/storage-card.svg" alt="card" class="card__image">
+                    <h3 class="card__title">Хостинг и домен</h3>
+                    <p class="card__paragraph">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на
+                        год + SSL сертификат.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/cards/conversation-card.svg" alt="card" class="card__image">
+                    <h3 class="card__title">Не брошу после сдачи</h3>
+                    <p class="card__paragraph">Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                        видео-инструкции.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="case">
+            <h2 class="section-title">Выполненные проекты</h2>
+            <div class="project">
+                <div class="project-card project-card_first">
+                    <h3 class="project-card__paragraph">The curious corner<br> 
+                        of chamarel</h3>
+                    <a href="#"><button class="project-card__button">Посмотреть</button></a>
+                </div>
+                <div class="project-card project-card_second">
+                    <h3 class="project-card__paragraph">Gymkhana club golf<br>
+                        course</h3>
+                    <a href="#"><button class="project-card__button">Посмотреть</button></a>
+                </div>
+                <div class="project-card project-card_third">
+                    <h3 class="project-card__paragraph">Tamarind falls hiking<br>
+                        trip - full day</h3>
+                    <a href="#"><button class="project-card__button">Посмотреть</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="photo">
+        <div class="case">
+            <div class="image-case">
+                <img src="./images/photo-case/first photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/second photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/third photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/fourth photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/fifth photo.png" alt="photo" class="image-case__photo">
+                <video src="./images/photo-case/first video.mp4" class="image-case__video" controls="controls"></video>
+                <img src="./images/photo-case/sixth photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/seven photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/eight photo.png" alt="photo" class="image-case__photo">
+                <img src="./images/photo-case/nine photo.png" alt="photo" class="image-case__photo">
+                <video src="./images/photo-case/second video.mp4" class="image-case__video" controls="controls"></video>
+                <img src="./images/photo-case/ten photo.png" alt="photo" class="image-case__photo">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
