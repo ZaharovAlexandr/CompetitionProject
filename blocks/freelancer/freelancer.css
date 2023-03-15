@@ -1,0 +1,6 @@
+.freelancer {
+    display: flex;
+    flex-direction: row;
+    min-width: 944px;
+    justify-content: space-between;
+}

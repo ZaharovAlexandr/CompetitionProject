@@ -1,0 +1,10 @@
+.project-card {
+    width: 304px;
+    height: 304px;
+    border-radius: 7px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    row-gap: 12px;
+}

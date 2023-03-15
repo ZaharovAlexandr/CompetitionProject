@@ -1,0 +1,15 @@
+.project-card__button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: #FFFFFF;
+    border: none;
+    background: #EC1F46;
+    box-shadow: 0px 2px 0px #CE1C3E;
+    border-radius: 4px;
+    padding: 10px 25px;
+    transform: translate(30px, -28px);
+    cursor: pointer;
+}

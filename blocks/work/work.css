@@ -1,0 +1,6 @@
+.work {
+    min-width: 944px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}

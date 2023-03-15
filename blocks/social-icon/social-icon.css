@@ -1,0 +1,8 @@
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    column-gap: 21px;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+}

@@ -1,0 +1,10 @@
+.project-card__paragraph {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transform: translate(30px, -28px);
+}

@@ -1,0 +1,7 @@
+.footer-case {
+    max-width: 944px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 88px;
+}

@@ -1,0 +1,7 @@
+.social-case {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    column-gap: 96px;
+    min-width: 944px;
+}

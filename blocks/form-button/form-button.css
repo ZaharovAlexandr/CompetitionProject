@@ -1,0 +1,16 @@
+.form-button {
+    background: #FFBB01;
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 102px;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #1B2944;
+    margin: 0;
+    cursor: pointer;
+}
